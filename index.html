@@ -43,6 +43,33 @@
       font-size: 1rem;
       margin: 0;
     }
+    .skip-box {
+      background: #e8f4fd;
+      border-left: 4px solid var(--primary);
+      padding: 14px 20px;
+      margin-bottom: 16px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .skip-box span {
+      font-size: 1.4rem;
+    }
+    .skip-box p {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .skip-box a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid var(--primary);
+    }
+    .skip-box a:hover {
+      color: #1a5f9e;
+      border-bottom-color: #1a5f9e;
+    }
     .warning-box {
       background: #fff3cd;
       border-left: 4px solid var(--warning);
@@ -231,6 +258,11 @@
       <p>Employee Account Setup Guide</p>
     </header>
 
+    <div class="skip-box">
+      <span>💼</span>
+      <p>Only looking for payroll? <a href="#step-7">Skip to Step 7</a></p>
+    </div>
+
     <div class="warning-box">
       <strong>Do not Google Microsoft login pages.</strong>
       Always start with the sign-in link on this page.
@@ -347,7 +379,7 @@
     </div>
 
     <!-- Step 7: Payroll -->
-    <div class="step">
+    <div class="step" id="step-7">
       <h2><span class="step-number">7</span> Finding Payroll After You Sign In</h2>
       <p>Payroll is accessed from inside your work account.</p>
       <ol>
