@@ -21,4 +21,15 @@ desktop.ini
 # Local environment
 .env
 .env.local
+.env.*.local
+.env.production
+.env.development
 
+# Secrets / keys (SECURITY: Never commit)
+local.settings.json
+secrets.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
