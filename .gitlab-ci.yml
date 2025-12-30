@@ -1,0 +1,9 @@
+image: alpine/git:latest
+
+stages:
+  - verify
+
+verify:
+  stage: verify
+  script:
+    - sh scripts/verify.sh
