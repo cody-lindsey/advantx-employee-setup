@@ -29,6 +29,8 @@ desktop.ini
 local.settings.json
 secrets.json
 credentials.json
+token-store.json
+*.tokens.json
 *.pem
 *.key
 *.p12
