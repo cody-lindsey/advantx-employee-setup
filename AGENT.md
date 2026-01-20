@@ -6,9 +6,10 @@ This file defines rules for any automated agent operating in this repository.
 
 1) `CONSTRAINTS.md`
 2) `PREFLIGHT.md`
-3) `README.md`
-4) `RUNBOOK.md`
-5) `DECISIONS.md`
+3) `PLAYBOOK.md`
+4) `README.md`
+5) `RUNBOOK.md`
+6) `DECISIONS.md`
 
 ## Workspace governance (applies everywhere)
 
